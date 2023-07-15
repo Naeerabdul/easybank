@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+
+}/*heder start*/
+.heder{
+    display: flex;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    
+    position: relative;
+    
+}
+.heder ul{
+    list-style: none;
+}
+.heder ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.heder ul li a{
+    color: hsl(233, 8%, 62%);
+    text-decoration: none;
+}
+.heder ul li  :hover{
+    color: black;
+    padding: 20px;
+    border-bottom: 1px solid hsl(136, 65%, 51%);
+}
+.heder button{
+    outline: none;
+    padding: 10px;
+    border: 0;
+    width: 200px;
+    border-radius: 50px;
+    display: none;
+    background-image: linear-gradient(to left,#2bb7da,#31d35c);
+}
+.heder {
+    position: relative;
+    z-index: 3;
+}
+.heder button a {
+color: hsl(0, 0%, 100%);
+text-decoration: none;   
+}
+/*heder end*/
+
+
+
+
+
+/*about start*/
+.about-pading{
+    padding: 50px 0px;  
+}
+.about{
+height: 500px;
+}
+.about h2{
+font-size: 60px;
+margin-top: 20px;
+}
+.about p {
+margin-top: 30px;
+color:hsl(233, 8%, 62%);
+}
+button {
+    padding:10px;
+    border: 0;
+    width: 150px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left, #2bb7da, #31d35c);
+}
+button a {
+    color: white;
+}
+.photo{
+    background-image: url('./images/bg-intro-desktop.svg');
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    bottom:70px;
+    width: 100%;
+    transform: translate3d(0,0,0,);
+} 
+.about {
+    position: relative;
+    z-index: 2;
+}
+
+/*about end*/
+
+
+
+
+
+/*Contact start*/
+.Contact {
+    background-color: hsl(0, 0%, 98%);
+    height: 650px;
+}
+.Contact h2{
+    margin: 20px 0px;
+    position: relative;
+    top: 80px;
+}
+.Contact .par{
+    margin-top: 10px;
+    color: hsl(233, 8%, 62%);
+    position: relative;
+    top: 100px;
+    width: 600px;
+} 
+.cards{
+    position: relative;
+    top: 100px;
+    margin: 50px 0px;
+    
+}
+.cards p{
+    color: hsl(233, 8%, 62%);
+}
+.cards p,.cards h4,.cards img{
+    margin-top: 30px;
+}
+.Contact {
+    position: relative;
+    z-index: 1;
+}
+
+/*Contact end*/
+
+
+
+
+
+/*Blog start*/
+.Blog{
+    margin: 50px 0px;
+}
+.Blog h1{
+    padding: 50px 0px;
+}
+.Blog img{
+    width: 100%;
+    height: 255px;
+    border-radius: 5px 5px 0px 0px;
+}
+.Blog h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.padig{
+    padding: 20px;
+}
+.Blog .par1{
+    margin-top: 10px;
+    font-size: 12px;
+    color: hsl(233, 8%, 62%);
+}
+.Blog .par2 {
+    margin-top: 10px;
+    font-size: 13px;
+    color: hsl(233, 8%, 62%);
+}
+.Blog .par2:hover{
+    color: #31d35c;
+}
+.Blog .par1:hover{
+    color:#31d35c
+}
+.Blog h4:hover{
+    color: #31d35c;
+}
+/*Blog end*/
+
+
+
+
+
+/*foter*/
+.row1{
+justify-content: space-between;
+align-items: center;
+}
+.son {
+  
+    background-color: hsl(233, 26%, 24%);
+    padding: 30px 0px;
+}
+.son .icon{
+    margin-top: 40px;
+}
+.son ul{
+    list-style: none;
+}
+.son ul li{
+    padding-bottom: 10px;
+}
+.son ul li a {
+    text-decoration: none;
+    color: white;
+}
+.son ul li :hover{
+    color: #31d35c;
+}
+.boto p{
+    margin-top: 30px;
+ max-width: 100px;
+    color: white;
+}
+/*foter*/
+@media ( max-width: 550px) {
+    
+.heder ul li {
+
+    display:none;
+
+}
+.heder button{
+    display: none;
+}
+    
+}
